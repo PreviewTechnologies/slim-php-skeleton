@@ -1,0 +1,9 @@
+/vendor/
+/logs/*
+!/logs/.gitkeep
+/tmp/*
+!/tmp/.gitkeep
+.idea/*
+config.php
+
+coverage.clover

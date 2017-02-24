@@ -1,0 +1,19 @@
+runtime: php55
+api_version: 1
+threadsafe: true
+
+service: default
+
+handlers:
+- url: /assets
+  static_dir: public/assets
+
+- url: /*
+  script: public/index.php
+
+- url: /.*
+  script: public/index.php
+
+
+skip_files:
+- ^.git$
