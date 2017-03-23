@@ -4,9 +4,9 @@
  *
  */
 $app->add(function (\Slim\Http\Request $request, \Slim\Http\Response $response, $next) {
-    $response->getBody()->write('BEFORE');
+    //$response->getBody()->write('BEFORE');
     $response = $next($request, $response);
-    $response->getBody()->write('AFTER');
+    //$response->getBody()->write('AFTER');
 
     return $response;
 });
