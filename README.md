@@ -34,10 +34,10 @@ Open your browser and you will get a default dashboard.
  - Template engine: [Twig](http://twig.sensiolabs.org/)
  
  
-####Contributions
+#### Contributions
 Developers are welcome to contribute for this project. Getting started contributing by participating in issue. If you found any issues, please submit that
 on [here](https://github.com/PreviewTechnologies/slim-php-skeleton/issues). Please submit issue, if you have any ideas of improvements.
  
-####License
+#### License
 
 MIT
