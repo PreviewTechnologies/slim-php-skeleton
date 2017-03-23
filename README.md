@@ -19,6 +19,7 @@ And you are done!
 
 After creating the project just navigate to `public` directory and execute -
 ```bash
+$ cd public
 $ php -S localhost:8080
 ```
 
