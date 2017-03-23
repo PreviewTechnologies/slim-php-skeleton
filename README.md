@@ -4,7 +4,8 @@ Slim PHP Framework Skeleton will help you get started for your next PHP project 
 This project was primarily started for few passionate PHP application developer at [Preview Technologies](https://www.previewtechs.com). We are extensively using this 
 skeleton to minimize timeframe to getting started for our customer's projects. It's like just make the idea ready in a minute.
 
-####Installation
+#### Installation
+
 ```bash
 composer create-project previewtechs/slim-php-skeleton YourApplicationDirectory
 ```
@@ -19,7 +20,7 @@ Open your browser and you will get a default dashboard.
 
 
 
-####Features
+#### Features
 
  - Designed for small or large PHP project
  - Easily extensible, push your container and you get that feature in your routes
