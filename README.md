@@ -6,9 +6,15 @@ skeleton to minimize timeframe to getting started for our customer's projects. I
 
 #### Installation
 
+Run `create-project` command with composer to install this project.
+
+Here is the full installation command - 
 ```bash
 composer create-project previewtechs/slim-php-skeleton YourApplicationDirectory
 ```
+
+Now copy `config.sample.php` to `config.php` and change your configuration.
+
 And you are done!
 
 After creating the project just navigate to `public` directory and execute -
