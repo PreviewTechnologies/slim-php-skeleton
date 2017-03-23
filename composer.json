@@ -1,52 +1,54 @@
 {
-  "name": "previewtechs/slim-php-skeleton",
-  "description": "A Slim Framework skeleton application for rapid development",
-  "keywords": [
-    "microframework",
-    "rest",
-    "router",
-    "psr7",
-    "skeleton",
-    "PreviewTechnologies",
-    "previewtechs"
-  ],
-  "homepage": "http://github.com/PreviewTechnologies",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Preview Technologies Limited",
-      "email": "info@previewtechs.com",
-      "homepage": "https://www.previewtechs.com/"
+    "name": "previewtechs/slim-php-skeleton",
+    "description": "A Slim Framework skeleton application for rapid development",
+    "keywords": [
+        "microframework",
+        "rest",
+        "router",
+        "psr7",
+        "skeleton",
+        "PreviewTechnologies",
+        "previewtechs"
+    ],
+    "homepage": "http://github.com/PreviewTechnologies",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Preview Technologies Limited",
+            "email": "info@previewtechs.com",
+            "homepage": "https://www.previewtechs.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "ext-curl": "*",
+        "slim/slim": "^3.1",
+        "slim/php-view": "^2.0",
+        "monolog/monolog": "^1.17",
+        "twig/twig": "^1.8",
+        "slim/twig-view": "^2.1",
+        "slim/flash": "^0.1.0",
+        "hassankhan/config": "^0.10.0",
+        "illuminate/events": "^5.2",
+        "illuminate/database": "^5.2"
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Previewtechs\\Framework\\PHP\\SlimSkeleton\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Previewtechs\\Framework\\PHP\\SlimSkeleton\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "start": "php -S 0.0.0.0:8080 -t public public/index.php",
+        "test": "phpunit"
     }
-  ],
-  "require": {
-    "php": ">=5.5.9",
-    "ext-curl": "*",
-    "slim/slim": "^3.1",
-    "slim/php-view": "^2.0",
-    "monolog/monolog": "^1.17",
-    "twig/twig": "^1.8",
-    "slim/twig-view": "^2.1",
-    "slim/flash": "^0.1.0",
-    "hassankhan/config": "^0.10.0"
-  },
-  "minimum-stability": "stable",
-  "require-dev": {
-    "phpunit/phpunit": "~4.0",
-    "squizlabs/php_codesniffer": "~2.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "Previewtechs\\Framework\\PHP\\SlimSkeleton\\": "src"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Previewtechs\\Framework\\PHP\\SlimSkeleton\\Tests\\": "tests/"
-    }
-  },
-  "scripts": {
-    "start": "php -S 0.0.0.0:8080 -t public public/index.php",
-    "test": "phpunit"
-  }
 }
