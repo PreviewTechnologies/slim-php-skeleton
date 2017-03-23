@@ -4,14 +4,22 @@ Slim PHP Framework Skeleton will help you get started for your next PHP project 
 This project was primarily started for few passionate PHP application developer at [Preview Technologies](https://www.previewtechs.com). We are extensively using this 
 skeleton to minimize timeframe to getting started for our customer's projects. It's like just make the idea ready in a minute.
 
-####Installation
+#### Installation
+
+Run `create-project` command with composer to install this project.
+
+Here is the full installation command - 
 ```bash
 composer create-project previewtechs/slim-php-skeleton YourApplicationDirectory
 ```
+
+Now copy `config.sample.php` to `config.php` and change your configuration.
+
 And you are done!
 
 After creating the project just navigate to `public` directory and execute -
 ```bash
+$ cd public
 $ php -S localhost:8080
 ```
 
@@ -19,7 +27,7 @@ Open your browser and you will get a default dashboard.
 
 
 
-####Features
+#### Features
 
  - Designed for small or large PHP project
  - Easily extensible, push your container and you get that feature in your routes
@@ -33,10 +41,10 @@ Open your browser and you will get a default dashboard.
  - Template engine: [Twig](http://twig.sensiolabs.org/)
  
  
-####Contributions
+#### Contributions
 Developers are welcome to contribute for this project. Getting started contributing by participating in issue. If you found any issues, please submit that
 on [here](https://github.com/PreviewTechnologies/slim-php-skeleton/issues). Please submit issue, if you have any ideas of improvements.
  
-####License
+#### License
 
 MIT
