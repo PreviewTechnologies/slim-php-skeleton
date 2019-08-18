@@ -70,14 +70,6 @@ $container['flash'] = function ($c) {
 };
 
 /**
- * @param $c
- * @return \Noodlehaus\Config
- */
-$container['config'] = function ($c) {
-    return new \Noodlehaus\Config(dirname(__DIR__) . DIRECTORY_SEPARATOR . "config.php");
-};
-
-/**
  * If you don't need any database in this project just comment the following line
  */
 /*use Illuminate\Container\Container;
